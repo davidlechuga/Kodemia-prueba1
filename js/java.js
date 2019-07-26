@@ -10,8 +10,6 @@ $(document).ready(function(){
         $('.secciones .active').toggleClass('secciones');
     });    
     
-
-
 });
 
 
