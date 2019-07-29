@@ -13,3 +13,11 @@ $(document).ready(function(){
 });
 
 
+
+/*      COLLAPSABLE 1     */
+
+var elem = document.querySelector('.collapsible');
+var instance = M.Collapsible.init(elem, {
+  accordion: false
+});
+      
