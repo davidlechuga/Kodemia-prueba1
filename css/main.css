@@ -41,12 +41,10 @@
     text-align: right;
     background: #001f44;
     color: whitesmoke;
-    display: none;
+    display: flex;
 }
             
-.toggle {
-    display: block;
-}
+
 
 
             
@@ -58,12 +56,7 @@
     text-align: center;
             }
 
-.logo {
 
-    width: 160px;
-    height: 80px;
-                    
-      }
 
 .busqueda {
 display: none;
@@ -78,6 +71,7 @@ align-self: center;
     width: 100%;
     text-align: center;
     display: block;
+    padding: 10px;
                 }           
 .primero > .row {
     background: #ddd;
@@ -95,12 +89,6 @@ align-self: center;
     margin-bottom: 0px;
            }
 
-
-.secciones > li {
-    display: list-item;
-    width: 100%;
-    text-align:  center;
-                }
 
 
 .secciones.active > li:hover{
@@ -189,15 +177,6 @@ main {
 /* ESTILOS DEL TOGGLE */
                
                
-.toggle {
-               
-text-align: right;
-background: #001f44;
-color: whitesmoke;
-display: none;
-
-       }
-
 .rowtoggle {
 
    margin: 0px;
@@ -220,26 +199,7 @@ height: 50px;
 
      }
                               
-.secciones {
 
-display: flex;
-padding: 0;
-justify-content: start;
-height: 100%;
-margin-bottom: 0px;
-
-         }
-
-.secciones > li {
-                   
-   padding: 10px;
-   list-style: none;
-   width: auto;
-               }
-
-.secciones.active > li:hover{
-   background-color: #B5B5B1;
-}                    
 
 
 .primero > .row {
@@ -255,23 +215,6 @@ main {
    box-sizing: border-box;
 }
 
-
-
-.content-wraper:nth-of-type(1){
-   flex-basis: 34%;
-   border: 1px solid peru;
-
-}
-.content-wraper:nth-of-type(2){
-   flex-basis: 33%;
-   border: 1px solid peru;
-
-}
-.content-wraper:nth-of-type(3){
-   flex-basis: 33%;
-   border: 1px solid peru;
-
-}
 
 
 
@@ -640,22 +583,9 @@ main {
 .cont2{
     width: 100%;
 }
-
-.content-wraper > img {
-    width: 15%;
-}
-
-.content-wraper > button {
-    height: 53px;
-}
-
-
-
-
  
     
                                          }
-
 
 
 
@@ -872,8 +802,23 @@ main {
     height: 53px;
 }
 
-
+.collapsible {
+    margin: 1rem 0 1rem 0;
 }
+
+.row {
+  
+    margin-top: 20px;
+}
+.row1 {
+    margin-top: 40px;
+}
+
+.row3{
+    margin-top: 40px;
+}
+
+                                         }
 
 
 
